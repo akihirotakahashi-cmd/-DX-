@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "twin-build": {
+      "type": "http",
+      "url": "https://twin-build-server.onrender.com/mcp",
+      "headers": {
+        "Authorization": "Bearer cbc34385-83e5-46e2-bf5a-d15336befc0f"
+      }
+    }
+  }
+}

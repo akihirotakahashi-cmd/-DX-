@@ -1,0 +1,55 @@
+# ── Python / Backend ──────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+*.so
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+*.log
+
+# ── Node / Frontend ───────────────────────────
+node_modules/
+.next/
+out/
+.cache/
+*.tsbuildinfo
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ── macOS ─────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# ── IDE ───────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── AWS / Secrets ─────────────────────────────
+*.pem
+*.key
+setup_aws.sh
+outputs/
+
+# ── Database ──────────────────────────────────
+*.sqlite
+*.db
